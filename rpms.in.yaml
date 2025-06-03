@@ -1,9 +1,25 @@
 packages:
+  - autoconf-archive
   - dnf
   - dnf-plugins-core
+  - doxygen
+  - gcc
+  - gettext
+  - graphviz
+  - libcap-ng-devel
+  - libcmocka-devel
+  - libnl3-devel
+  - libtool
+  - lz4-devel
+  - lzo-devel
+  - make
+  - openssl-devel
+  - pam-devel
+  - python3-docutils
   - rpm-build
   - socat
   - stunnel
+  - systemd-devel
 arches:
 - x86_64
 contentOrigin:

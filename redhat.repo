@@ -721,8 +721,8 @@ sslverifystatus = 1
 
 [codeready-builder-for-rhel-8-x86_64-rpms]
 baseurl = https://cdn.redhat.com/content/dist/rhel8/$releasever/x86_64/codeready-builder/os
-enabled = 0
-enabled_metadata = 0
+enabled = 1
+enabled_metadata = 1
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 metadata_expire = 86400
@@ -1147,6 +1147,18 @@ gpgcheck = 1
 gpgkey = file://
 metadata_expire = 86400
 name = Red Hat JBoss Fuse Service Works Text-Only Advisories
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslverify = 1
+sslverifystatus = 1
+
+[gitops-1.12-for-rhel-8-x86_64-debug-rpms]
+baseurl = https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/gitops/1.12/debug
+enabled = 0
+enabled_metadata = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+metadata_expire = 86400
+name = Red Hat OpenShift GitOps 1.12 for RHEL 8 x86_64 (Debug RPMs)
 sslcacert = /etc/rhsm/ca/redhat-uep.pem
 sslverify = 1
 sslverifystatus = 1
@@ -2107,18 +2119,6 @@ gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 metadata_expire = 86400
 name = OpenShift Developer Tools and Services 4.16 (RHEL 8) (x86_64 Debug RPMs)
-sslcacert = /etc/rhsm/ca/redhat-uep.pem
-sslverify = 1
-sslverifystatus = 1
-
-[ocp-tools-4.16-for-rhel-8-x86_64-rpms]
-baseurl = https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/ocp-tools/4.16/os
-enabled = 0
-enabled_metadata = 0
-gpgcheck = 1
-gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
-metadata_expire = 86400
-name = OpenShift Developer Tools and Services 4.16 (RHEL 8) (x86_64 RPMs)
 sslcacert = /etc/rhsm/ca/redhat-uep.pem
 sslverify = 1
 sslverifystatus = 1
