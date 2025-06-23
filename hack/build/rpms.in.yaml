@@ -6,6 +6,9 @@ packages:
   - doxygen
   - gcc
   - gettext
+  - glibc
+  - glibc-common
+  - glibc-gconv-extra
   - graphviz
   - libcap-ng-devel
   - libcmocka-devel
@@ -23,6 +26,7 @@ packages:
   - socat
   - stunnel
   - systemd-devel
+  - system-rpm-config
 arches:
 - x86_64
 contentOrigin:
