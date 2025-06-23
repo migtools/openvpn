@@ -1,10 +1,10 @@
 arches:
 - arch: x86_64
   module_metadata:
-  - checksum: sha256:895708cee69d4fedddd58e75d23f76aeb910f5eb8223761c8e2ecc4ce27f4d8a
+  - checksum: sha256:c624d3387e41fa083b9269faced49805b9f0ebf94c8053f4323bf28cfad61936
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 739499
-    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/895708cee69d4fedddd58e75d23f76aeb910f5eb8223761c8e2ecc4ce27f4d8a-modules.yaml.gz
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/c624d3387e41fa083b9269faced49805b9f0ebf94c8053f4323bf28cfad61936-modules.yaml.gz
   packages:
   - checksum: sha256:b913dcb5879c7ecc6b3276968770e3270029a60b1563a406a192c3db5d969b8c
     evr: 20171205-3.el8
@@ -923,27 +923,27 @@ arches:
     size: 320224
     sourcerpm: gettext-0.19.8.1-17.el8.src.rpm
     url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/gettext-libs-0.19.8.1-17.el8.x86_64.rpm
-  - checksum: sha256:d51421bb11b703bd5070f4f3cfb7707e2df6304ebb719ada510c72424b8f0bf2
-    evr: 2.28-251.el8_10.16
+  - checksum: sha256:bc6581d5f5c4c2681093f772fe55b173706fd99e35ee4d2d27f0f786fa5c0bf5
+    evr: 2.28-251.el8_10.22
     name: glibc-devel
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 91136
-    sourcerpm: glibc-2.28-251.el8_10.16.src.rpm
-    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-devel-2.28-251.el8_10.16.x86_64.rpm
-  - checksum: sha256:e48f8d628056669fe2c4e37e629088dd47f1004e9fe5ddec982b9741e7ebdbcd
-    evr: 2.28-251.el8_10.16
+    size: 91924
+    sourcerpm: glibc-2.28-251.el8_10.22.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-devel-2.28-251.el8_10.22.x86_64.rpm
+  - checksum: sha256:33f0acb48ebeeb2d557e21f272c9de60e00b11870e7263d0b418635610c594a2
+    evr: 2.28-251.el8_10.22
     name: glibc-gconv-extra
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 1627124
-    sourcerpm: glibc-2.28-251.el8_10.16.src.rpm
-    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.28-251.el8_10.16.x86_64.rpm
-  - checksum: sha256:7db16391024e67a9c748c72cb1b340d00fb8699429381e30ccc47d547189812e
-    evr: 2.28-251.el8_10.16
+    size: 1627852
+    sourcerpm: glibc-2.28-251.el8_10.22.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.28-251.el8_10.22.x86_64.rpm
+  - checksum: sha256:0ee590c9959f614ec25ca6548c2c66df2c5611588c6943f26434c9468f5d73ad
+    evr: 2.28-251.el8_10.22
     name: glibc-headers
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 505860
-    sourcerpm: glibc-2.28-251.el8_10.16.src.rpm
-    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-headers-2.28-251.el8_10.16.x86_64.rpm
+    size: 506616
+    sourcerpm: glibc-2.28-251.el8_10.22.src.rpm
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-headers-2.28-251.el8_10.22.x86_64.rpm
   - checksum: sha256:73c29baa2cd94f1ae6a1d1333818969a281b16dd4262f413ad284c5333719a4d
     evr: 1.22.3-18.el8
     name: groff-base
@@ -1633,12 +1633,12 @@ arches:
     repoid: rhel-8-for-x86_64-baseos-source-rpms
     size: 7264423
     url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/g/gettext-0.19.8.1-17.el8.src.rpm
-  - checksum: sha256:f988b183ac97142187843e95dab32f9d7bc8bce3723c80a535a3dfdabba08a44
-    evr: 2.28-251.el8_10.16
+  - checksum: sha256:35eeb3cb436be1c5000daf8c55cc31181101a8f5cf7d814ad4f3f800a7db533b
+    evr: 2.28-251.el8_10.22
     name: glibc
     repoid: rhel-8-for-x86_64-baseos-source-rpms
-    size: 18487094
-    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.28-251.el8_10.16.src.rpm
+    size: 18504270
+    url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.28-251.el8_10.22.src.rpm
   - checksum: sha256:3d70ed8c7784143119218a32b413fa210c04f380018c6c801a33f7e33885ed19
     evr: 1.22.3-18.el8
     name: groff
