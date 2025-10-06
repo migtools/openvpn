@@ -1,4 +1,3 @@
-#@follow_tag(registry.redhat.io/ubi8/ubi)
 FROM registry.redhat.io/ubi8/ubi:latest AS builder
 COPY . /workspace/
 WORKDIR /workspace/
@@ -12,7 +11,6 @@ RUN dnf builddep -y openvpn*
 RUN rpmbuild -ba /root/rpmbuild/SPECS/openvpn.spec
 
 
-#@follow_tag(registry.redhat.io/ubi8/ubi)
 FROM registry.redhat.io/ubi8/ubi:latest
 COPY --from=builder /root/rpmbuild/RPMS/x86_64/pkcs11-helper-1* ./
 COPY --from=builder /root/rpmbuild/RPMS/x86_64/openvpn-2* ./
