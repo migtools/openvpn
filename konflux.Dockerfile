@@ -16,3 +16,10 @@ COPY --from=builder /root/rpmbuild/RPMS/x86_64/pkcs11-helper-1* ./
 COPY --from=builder /root/rpmbuild/RPMS/x86_64/openvpn-2* ./
 COPY LICENSE /licenses/
 RUN dnf -y install socat stunnel *.rpm && dnf clean all && rm -fv *.rpm
+
+LABEL \
+        "io.k8s.description"="Migration Toolkit for Containers OpenVPN" \
+        "io.k8s.display-name"="Migration Toolkit for Containers" \
+        "io.openshift.tags"="migration" \
+        "summary"="Migration Toolkit for Containers OpenVPN" \
+        "io.openshift.maintainer.project"="MIG"
