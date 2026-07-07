@@ -25,6 +25,7 @@ RUN rpmbuild -ba /root/rpmbuild/SPECS/openvpn.spec
 
 FROM registry.access.redhat.com/ubi8:latest
 RUN dnf -y update && dnf -y install cpio lzo socat stunnel && dnf clean all
+RUN dnf upgrade -y python3-urllib3 && dnf clean all
 COPY --from=builder /root/rpmbuild/RPMS/x86_64/pkcs11-helper-1* ./
 COPY --from=builder /root/rpmbuild/RPMS/x86_64/openvpn-2* ./
 RUN bash -c 'rpm2cpio < pkcs11-helper-1* | cpio -ivd'
